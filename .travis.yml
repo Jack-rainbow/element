@@ -1,6 +1,6 @@
 branches:
   only:
-    - feature-theme-deepexi
+    - feature-components
 language: node_js
 node_js:
 - lts/*
