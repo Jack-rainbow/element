@@ -617,6 +617,24 @@ $--card-border-color: $--border-color-lighter !default;
 $--card-border-radius: 4px !default;
 $--card-padding: 20px !default;
 
+/* Avatar
+--------------------------*/
+$--avatar-bg: #ccc;
+$--avatar-color: #fff;
+$--avatar-border-radius: $--border-radius-base;
+
+$--avatar-size: 48px;
+$--avatar-font-size: 30px;
+
+$--avatar-medium-size: 40px;
+$--avatar-medium-font-size: 24px;
+
+$--avatar-small-size: 32px;
+$--avatar-small-font-size: 18px;
+
+$--avatar-mini-size: 24px;
+$--avatar-mini-font-size: 14px;
+
 /* Slider
 --------------------------*/
 $--slider-main-background-color: $--color-primary !default;
