@@ -1,0 +1,46 @@
+@import "mixins/mixins";
+@import "mixins/_avatar";
+@import "common/var";
+
+@include b(avatar) {
+  display: inline-block;
+  text-align: center;
+  background: $--avatar-bg;
+  color: $--avatar-color;
+  white-space: nowrap;
+  position: relative;
+  overflow: hidden;
+  vertical-align: middle;
+
+  @include avatar-size($--avatar-size, $--avatar-font-size);
+
+  
+  @include when(square) {
+    border-radius: $--avatar-border-radius;
+  }
+  
+  @include m(image) {
+    background: transparent;
+  }
+  @include m(medium) {
+    @include avatar-size($--avatar-medium-size, $--avatar-medium-font-size);
+  }
+
+  @include m(small) {
+    @include avatar-size($--avatar-small-size, $--avatar-small-font-size);
+  }
+
+  @include m(mini) {
+    @include avatar-size($--avatar-mini-size, $--avatar-mini-font-size);
+  }
+
+  &>img {
+    width: 100%;
+    height: 100%;
+  }
+
+
+
+
+  @include e(content) {}
+}
