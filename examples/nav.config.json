@@ -235,6 +235,10 @@
             {
               "path": "/avatar",
               "title": "Avatar 头像"
+            },
+            {
+              "path": "/drag-panel",
+              "title": "DragPanel 拖拽列表"
             }
           ]
         }
@@ -481,6 +485,10 @@
             {
               "path": "/avatar",
               "title": "Avatar"
+            },
+            {
+              "path": "/drag-panel",
+              "title": "DragPanel"
             }
           ]
         }
@@ -727,6 +735,10 @@
             {
               "path": "/avatar",
               "title": "Avatar"
+            },
+            {
+              "path": "/drag-panel",
+              "title": "DragPanel"
             }
           ]
         }

@@ -70,6 +70,7 @@ import Aside from '../packages/aside/index.js';
 import Main from '../packages/main/index.js';
 import Footer from '../packages/footer/index.js';
 import Avatar from '../packages/avatar/index.js';
+import DragPanel from '../packages/drag-panel/index.js';
 import locale from 'element-ui/src/locale';
 import CollapseTransition from 'element-ui/src/transitions/collapse-transition';
 
@@ -140,6 +141,7 @@ const components = [
   Main,
   Footer,
   Avatar,
+  DragPanel,
   CollapseTransition
 ];
 
@@ -248,7 +250,8 @@ module.exports = {
   Aside,
   Main,
   Footer,
-  Avatar
+  Avatar,
+  DragPanel
 };
 
 module.exports.default = module.exports;

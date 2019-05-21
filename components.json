@@ -68,5 +68,6 @@
   "aside": "./packages/aside/index.js",
   "main": "./packages/main/index.js",
   "footer": "./packages/footer/index.js",
-  "avatar": "./packages/avatar/index.js"
+  "avatar": "./packages/avatar/index.js",
+  "drag-panel": "./packages/drag-panel/index.js"
 }

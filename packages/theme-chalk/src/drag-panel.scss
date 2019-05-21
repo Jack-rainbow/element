@@ -1,0 +1,33 @@
+@import "mixins/mixins";
+@import "common/var";
+
+@include b(drag-panel) {
+    border-radius: $--dragpanel-border-radius;
+    border: 1px solid $--dragpanel-border-color;
+    background-color: $--color-white;
+    overflow: hidden;
+    color: $--color-text-primary;
+    transition: 0.3s;
+    
+    @include e(header) {
+        padding: $--card-padding;
+        border-bottom: 1px solid $--card-border-color;
+        box-sizing: border-box;
+    }
+    @include e(content) {
+        padding: 3px $--card-padding 37px $--card-padding;
+    }
+    
+    @include e(wrap) {
+        max-height: 280px;
+        padding: 10px 0;
+        box-sizing: border-box;
+        overflow: auto;
+        background-color: $--color-white;
+    }
+
+    @include e(list) {
+        margin: 0;
+        padding: 0;
+    }
+}
