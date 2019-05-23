@@ -8,8 +8,8 @@
         ]
   export default {
     data() {
-      return {
-        tags: list,
+      return { 
+        tags: list,  
         headerText:'header' 
       }
     },
